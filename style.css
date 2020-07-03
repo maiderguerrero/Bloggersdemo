@@ -885,6 +885,20 @@ body #book-index #indice .col-main {
 
 		/* Vuestro CSS aquí. */
 
+    /*ADAPTACIONES NUEVO ESTILO. BORRAR LAS CLASES DEL VIEJO*/
+
+    #layout-container #main-screen #course-header {
+    align-items: stretch;
+    background-color: #dc0046;
+    color: #ffffff;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-left: calc(10% + 75px);
+    z-index: 2;
+}
+
     /*-------------------------------------------------------GENERAL----------------------------------------------------*/
 
 #actividad {
