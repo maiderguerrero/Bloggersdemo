@@ -1143,7 +1143,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     font-weight: 300;
     margin: 0 0 10px 0;
     padding: 60px;
-    background-image: url(/useruploads/r/a/155018396/activity_other_imported/bloggers_logo.png);
+    background-image: url(images/bloggers_logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -2194,7 +2194,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 }
 
 .item-container .icon-bloggers:before {
-    background-image: url(/useruploads/r/a/151861746/activity_other_imported/icono_bloggers.png);
+    background-image: url(images/icono_bloggers.png);
     margin-top: -15px;
 }
 
@@ -2204,7 +2204,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     width: 30px;
     display: inline-block;
     background-color: transparent;
-    background-image: url(/useruploads/r/a/153788566/activity_other_imported/icono_audio.png);
+    background-image: url(images/icono_audio.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center !important;
