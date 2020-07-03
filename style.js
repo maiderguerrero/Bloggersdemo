@@ -86,9 +86,9 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./bloggers_demo/blink-src/js/cke_styles.js":
+/***/ "./bloggers-demo/blink-src/js/cke_styles.js":
 /*!********************************************!*\
-  !*** ./bloggers_demo/blink-src/js/cke_styles.js ***!
+  !*** ./bloggers-demo/blink-src/js/cke_styles.js ***!
   \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -190,9 +190,9 @@ const ckeStyles = [
 
 /***/ }),
 
-/***/ "./bloggers_demo/blink-src/js/layout/main.js":
+/***/ "./bloggers-demo/blink-src/js/layout/main.js":
 /*!*********************************************!*\
-  !*** ./bloggers_demo/blink-src/js/layout/main.js ***!
+  !*** ./bloggers-demo/blink-src/js/layout/main.js ***!
   \*********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -993,18 +993,18 @@ class Layout {
 
 /***/ }),
 
-/***/ "./bloggers_demo/blink-src/js/main.js":
+/***/ "./bloggers-demo/blink-src/js/main.js":
 /*!**************************************!*\
-  !*** ./bloggers_demo/blink-src/js/main.js ***!
+  !*** ./bloggers-demo/blink-src/js/main.js ***!
   \**************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _cke_styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cke_styles */ "./bloggers_demo/blink-src/js/cke_styles.js");
-/* harmony import */ var _overrides__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./overrides */ "./bloggers_demo/blink-src/js/overrides.js");
-/* harmony import */ var _layout_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout/main */ "./bloggers_demo/blink-src/js/layout/main.js");
+/* harmony import */ var _cke_styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cke_styles */ "./bloggers-demo/blink-src/js/cke_styles.js");
+/* harmony import */ var _overrides__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./overrides */ "./bloggers-demo/blink-src/js/overrides.js");
+/* harmony import */ var _layout_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout/main */ "./bloggers-demo/blink-src/js/layout/main.js");
 /*
 *   Javascript principal con la estructura básica del estilo
 */
@@ -1015,16 +1015,16 @@ __webpack_require__.r(__webpack_exports__);
 (function (blink) {
   'use strict';
 
-  var Bloggers_demoStyle = function () {
+  var BloggersDemoStyle = function () {
     blink.theme.styles.basic.apply(this, arguments);
   };
 
-  Bloggers_demoStyle.prototype = {
+  BloggersDemoStyle.prototype = {
     parent: blink.theme.styles.basic.prototype,
-    bodyClassName: 'content_type_clase_bloggers_demo',
+    bodyClassName: 'content_type_clase_bloggers-demo',
     extraPlugins: ['image2'],
     ckEditorStyles: {
-      name: 'bloggers_demo',
+      name: 'bloggers-demo',
       styles: _cke_styles__WEBPACK_IMPORTED_MODULE_0__["default"]
     },
     init: function (scope) {
@@ -1036,15 +1036,15 @@ __webpack_require__.r(__webpack_exports__);
     },
     ..._overrides__WEBPACK_IMPORTED_MODULE_1__["default"]
   };
-  Bloggers_demoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), Bloggers_demoStyle.prototype);
-  blink.theme.styles['bloggers_demo'] = Bloggers_demoStyle;
+  BloggersDemoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), BloggersDemoStyle.prototype);
+  blink.theme.styles['bloggers-demo'] = BloggersDemoStyle;
 })(blink);
 
 /***/ }),
 
-/***/ "./bloggers_demo/blink-src/js/overrides.js":
+/***/ "./bloggers-demo/blink-src/js/overrides.js":
 /*!*******************************************!*\
-  !*** ./bloggers_demo/blink-src/js/overrides.js ***!
+  !*** ./bloggers-demo/blink-src/js/overrides.js ***!
   \*******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1115,9 +1115,9 @@ const overrides = {
 
 /***/ }),
 
-/***/ "./bloggers_demo/blink-src/styles/main.scss":
+/***/ "./bloggers-demo/blink-src/styles/main.scss":
 /*!********************************************!*\
-  !*** ./bloggers_demo/blink-src/styles/main.scss ***!
+  !*** ./bloggers-demo/blink-src/styles/main.scss ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -1130,13 +1130,13 @@ const overrides = {
 
 /***/ 0:
 /*!*********************************************************************************!*\
-  !*** multi ./bloggers_demo/blink-src/js/main.js ./bloggers_demo/blink-src/styles/main.scss ***!
+  !*** multi ./bloggers-demo/blink-src/js/main.js ./bloggers-demo/blink-src/styles/main.scss ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\bloggers_demo\blink-src\js\main.js */"./bloggers_demo/blink-src/js/main.js");
-module.exports = __webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\bloggers_demo\blink-src\styles\main.scss */"./bloggers_demo/blink-src/styles/main.scss");
+__webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\bloggers-demo\blink-src\js\main.js */"./bloggers-demo/blink-src/js/main.js");
+module.exports = __webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\bloggers-demo\blink-src\styles\main.scss */"./bloggers-demo/blink-src/styles/main.scss");
 
 
 /***/ })
