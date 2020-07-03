@@ -1164,7 +1164,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 .abp-section_home .abp-section-header {
     min-height: 210px;
     height: 30vh;
-    background: #dc0046;
+    background-color: #dc0046;
     color: #ffffff;
     position: relative;
 }
@@ -1290,7 +1290,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 }
 
 .abp-resources-list-item-text::before {
-   background: #fbb921;
+    background: #fbb921;
     background: -moz-linear-gradient(0% 50% 0deg, #A2041B 0%, #F04C5C 99.84%);
     background: -webkit-linear-gradient(0deg, #d79a0e 0%, #fbb921 99.84%);
     background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0, #d6990e), color-stop(0.9984, #fbb921));
