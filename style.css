@@ -2365,6 +2365,10 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 
 /*Flecha*/
 
+.bck-dropdown-icon>.fa {
+  border: none;
+}
+
 .fa-chevron-down:before {
     content: "\f078";
     color: #dc0046;
