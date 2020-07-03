@@ -2208,7 +2208,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 }
 
 .item-container .icon-bloggers:before {
-    background-image: url(/images/icono_bloggers.png);
+    background-image: url(images/icono_bloggers.png);
     margin-top: -15px;
 }
 
