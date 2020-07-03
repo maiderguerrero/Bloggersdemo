@@ -112,21 +112,17 @@ const ckeStyles = [
   {name: 'Caja 11', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-11'}},
   {name: 'Caja 12', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-12'}},
   {name: 'Caja 13', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-13'}},
-
   {name: 'Título 1', element: 'h4', attributes: {'class': 'bck-title bck-title3'}},
   {name: 'Título 2', element: 'h4', attributes: {'class': 'bck-title bck-title4'}},
   {name: 'Título 3', element: 'h4', attributes: {'class': 'bck-title bck-title5'}},
-
   {name: 'Lista ordenada 1', element: 'ol', attributes: {'class': 'bck-ol bck-ol-1'}},
   {name: 'Lista ordenada 2', element: 'ol', attributes: {'class': 'bck-ol bck-ol-2'}},
   {name: 'Lista ordenada 3', element: 'ol', attributes: {'class': 'bck-ol bck-ol-3'}},
   {name: 'Lista ordenada 4', element: 'ol', attributes: {'class': 'bck-ol bck-ol-4'}},
   {name: 'Lista ordenada 5', element: 'ol', attributes: {'class': 'bck-ol bck-ol-5'}},
   {name: 'Lista ordenada 6', element: 'ol', attributes: {'class': 'bck-ol bck-ol-6'}},
-
   {name: 'Lista desordenada 1', element: 'ul', attributes: {'class': 'bck-ul bck-ul-1'}},
   {name: 'Lista desordenada 2', element: 'ul', attributes: {'class': 'bck-ul bck-ul-2'}},
-
   {name: 'Énfasis 1', element: 'span', attributes: {'class': 'enfasis-1'}},
   {name: 'Énfasis 1', element: 'span', attributes: {'class': 'enfasis-2'}},
   {name: 'Énfasis 1', element: 'span', attributes: {'class': 'enfasis-3'}},
@@ -146,7 +142,6 @@ const ckeStyles = [
   {name: 'Énfasis 1', element: 'span', attributes: {'class': 'enfasis-17'}},
   {name: 'Énfasis 1', element: 'span', attributes: {'class': 'enfasis-18'}},
   {name: 'Énfasis 1', element: 'span', attributes: {'class': 'enfasis-19'}},
-
   {name: 'Tabla 1', element: 'table', attributes: {'class': 'tabla-1'}},
   {name: 'Tabla 2', element: 'table', attributes: {'class': 'tabla-2'}},
   {name: 'Tabla 3', element: 'table', attributes: {'class': 'tabla-3'}},
@@ -158,7 +153,6 @@ const ckeStyles = [
   {name: 'Tabla 9', element: 'table', attributes: {'class': 'tabla-9'}},
   {name: 'Tabla 10', element: 'table', attributes: {'class': 'tabla-10'}},
   {name: 'Tabla 11', element: 'table', attributes: {'class': 'tabla-11'}},
-
   {name: 'Celda 1', element: 'td', attributes: {'class': 'celda-1'}},
   {name: 'Celda 2', element: 'td', attributes: {'class': 'celda-2'}},
   {name: 'Celda 3', element: 'td', attributes: {'class': 'celda-3'}},
@@ -181,7 +175,6 @@ const ckeStyles = [
   {name: 'Celda 20', element: 'td', attributes: {'class': 'celda-20'}},
   {name: 'Celda 21', element: 'td', attributes: {'class': 'celda-21'}},
   {name: 'Celda 22', element: 'td', attributes: {'class': 'celda-22'}},
-  
   {name: 'Icono Bloggers', element: 'span', attributes: {'class': 'icon icon-bloggers'}}
 
   // Añadir elementos CKEditor aquí.
