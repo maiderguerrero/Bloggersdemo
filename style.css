@@ -1232,8 +1232,10 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-desc {
     opacity: 0.9;
-    top: 137px;
-    height: 45%;
+    top: 195px;
+    height: 35%;
+    position: absolute;
+    width: 100%;
 }
 
 .abp-units-slider-item::before {
