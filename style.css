@@ -1420,10 +1420,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 .content ol li:before, 
 .cke_contents ol li:before {
     font-family: sans-serif;
-    content: counter(bck-li-counter) ".";
-    margin-left: -24px;
-    margin-right: 10px;
-    font-weight: 600;
+    content: counter(bck-li-counter);
 }
 
 /*Lista ordenada 1*/
