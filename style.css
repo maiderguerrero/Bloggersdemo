@@ -1190,9 +1190,14 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 }
 */
 
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-img {
+    background-position: center center;
+}
+
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title {
   background: #dc0046;
   padding: 12px 13px;
+  height: 46px;
 }
 
 .abp-section_home .abp-section-header {
