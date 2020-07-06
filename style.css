@@ -1323,6 +1323,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 
 /*-----------------------------------------------SEGUNDA PANTALLA---------------------------------------*/
 
+/*
 .abp-section {
     position: relative;
     z-index: 10;
@@ -1393,6 +1394,8 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     background: -ms-linear-gradient(0deg, #e2764e 0%, #d43923 99.84%);
     background: linear-gradient(90deg, #fbb921 0%, #d6990e 99.84%);
 }
+
+*/
 
 #layout-container div[id*="section-screen"] .section .section-data .section-title h1 {
     color: #ffffff;
