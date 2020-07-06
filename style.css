@@ -1197,7 +1197,11 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title {
   background: #dc0046;
   padding: 12px 13px;
-  height: 46px;
+  height: 45px;
+}
+
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title {
+    max-height: 45px;
 }
 
 .abp-section_home .abp-section-header {
@@ -1208,9 +1212,10 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     position: relative;
 }
 
-.abp-section_home .abp-section-content {
+/*.abp-section_home .abp-section-content {
     background: rgba(245, 245, 245, 1);
 }
+*/
 
 /*.abp-unit-header::before {
     border-top: 15px solid #dc0046;
@@ -1334,6 +1339,14 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item:after {
   display: none;
+}
+
+#layout-container:before {
+  background-color: #ffffff;
+}
+
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item {
+  box-shadow: 5px 5px 20px 0 rgba(24,24,24,0.15);
 }
 
 /*-----------------------------------------------SEGUNDA PANTALLA---------------------------------------*/
