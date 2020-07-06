@@ -984,6 +984,7 @@ a:hover, a:active, a:focus {
     color: #dc0046;
 }
 
+.navbar-bottom .slider-indicators .active,
 .slider-indicators .active {
    background-color: #dc0046;
     color: #dc0046;
@@ -999,6 +1000,31 @@ a:hover, a:active, a:focus {
 
 /*Slide*/
 
+#actividad .carousel-inner .item-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-top: 0px !important;
+    margin-top: 0px;
+    background: #fff;
+    box-shadow: none;
+}
+
+.content-wrapper:not(.libro):before {
+  background-color: #f5f5f5;
+}
+
+.go-back button {
+  color: #dc0046;
+  padding: 0;
+  padding-left: 15px;
+  margin-top: -10px;
+}
+
+.go-back button:before {
+  height: 80%;
+}
+
+
 #actividad .content .header .title {
   display: none;
 }
@@ -1007,11 +1033,6 @@ a:hover, a:active, a:focus {
   display: none;
 }
 
-#actividad .carousel-inner .item-container {
-    background: #fff;
-    box-shadow: none;
-    padding: 40px 40px 10px 40px;
-}
 
 /*Botonera corregir*/
 .btn-danger {
