@@ -1213,7 +1213,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 */
 
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title:before {
-  border-color: #dc0046;
+  background-color: #dc0046;
 }
 
 /*
