@@ -1203,6 +1203,10 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     width: 100%;
 }
 
+#layout-container #main-screen #course-header {
+      background-color: #dc0046;
+}
+
 
 #layout-container #main-screen #course-header .course-title span {
     font-size: 40px;
