@@ -1541,6 +1541,12 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     font-weight: 600;
 }
 
+/*Lista desordenada por defecto*/
+
+.texto_curso ul li:before {
+  background-color: #d43923;
+}
+
 /*Lista desordenada 1*/
 
 .foro_wiki_cke_text ul.bck-ul-1 li:before, 
