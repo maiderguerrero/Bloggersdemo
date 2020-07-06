@@ -1165,6 +1165,10 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 }
 */
 
+#layout-container #main-screen #course-content .slider-wrapper .slider-navcontrol span i {
+  z-index: 1;
+}
+
 #layout-container .section-title-1 {
     font-size: 0px;
     line-height: 1.2em;
