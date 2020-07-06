@@ -1459,12 +1459,17 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     border-radius: 20px;
 }
 
-#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:hover {
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:hover, 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item:hover, 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item:hover {
   background-color: #fdf1d6;
   color: #dc0046;
 }
 
-#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:after {
+
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:after, 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item:after, 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item:after {
   background: #fbb921;
   background: -moz-linear-gradient(0% 50% 0deg, #A2041B 0%, #F04C5C 99.84%);
   background: -webkit-linear-gradient(0deg, #d79a0e 0%, #fbb921 99.84%);
@@ -1473,6 +1478,10 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
   background: -ms-linear-gradient(0deg, #A2041B 0%, #F04C5C 99.84%);
   background: linear-gradient(90deg, #d6990e 0%, #FBB921 99.84%);
   border-radius: 0;
+}
+
+#layout-container span {
+    font-size: 1.8rem;
 }
 
 
