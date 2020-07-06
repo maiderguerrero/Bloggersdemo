@@ -1421,6 +1421,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 .cke_contents ol li:before {
     font-family: sans-serif;
     content: counter(bck-li-counter);
+    margin-right: 5px;
 }
 
 /*Lista ordenada 1*/
