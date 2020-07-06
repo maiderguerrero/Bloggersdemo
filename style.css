@@ -1558,7 +1558,6 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 .preview ul li {
     padding-left: 10px;
     font-size: 1.6rem;
-    font-weight: 600;
 }
 
 /*Lista desordenada por defecto*/
