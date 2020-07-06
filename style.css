@@ -1165,6 +1165,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 }
 */
 
+
 #layout-container #main-screen #course-content .slider-wrapper .slider-navcontrol span i {
   z-index: 1;
 }
@@ -1209,6 +1210,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     max-height: 45px;
 }
 
+/*
 .abp-section_home .abp-section-header {
     min-height: 210px;
     height: 30vh;
@@ -1216,29 +1218,15 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     color: #ffffff;
     position: relative;
 }
-
-/*.abp-section_home .abp-section-content {
-    background: rgba(245, 245, 245, 1);
-}
 */
 
-/*.abp-unit-header::before {
-    border-top: 15px solid #dc0046;
-}
-*/
 
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title:before {
   background-color: #dc0046;
   background-image: none;
 }
 
-/*
-.abp-unit-content::before {
-    opacity: 0.9;
-    top: 137px;
-    height: 45%;
-}
-*/
+
 
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-desc {
     opacity: 0.9;
@@ -1247,6 +1235,8 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     position: absolute;
     width: 100%;
 }
+
+/*
 
 .abp-units-slider-item::before {
     content: '';
@@ -1259,6 +1249,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     right: 0;
     bottom: 43px;
 }
+*/
 
 
 
@@ -1282,17 +1273,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     height: calc(100% - 160px);
 }
 
-/*Título 4 en TOC*/
-
-/*
-.abp-unit-header .abp-title-4 {
-    font-size: 22px;
-    line-height: 1em;
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
-}
-*/
+/*Título 3 en TOC*/
 
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title h3 {
    font-size: 22px;
@@ -1304,18 +1285,6 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 
 /*Unit descpription*/
 
-/*
-.abp-unit-content-description {
-    font-size: 18px;
-    line-height: 1.2em;
-    font-weight: 400;
-    color: #223c3f;
-    padding-right: 30px;
-    position: relative;
-    z-index: 10;
-    padding-top: 130px;
-}
-*/
 
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-desc .section-title-4 {
     font-size: 18px;
@@ -1327,16 +1296,6 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     z-index: 10;
 }
 
-/*
-.abp-unit .abp-unit-number {
-    position: absolute;
-    bottom: 0;
-    transform: translate(0, 50%);
-    left: 12px;
-    z-index: 10;
-    display: none;
-}
-*/
 
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-number {
   display: none;
@@ -1425,6 +1384,29 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     background: -o-linear-gradient(0deg, #e2764e 0%, #d43923 99.84%);
     background: -ms-linear-gradient(0deg, #e2764e 0%, #d43923 99.84%);
     background: linear-gradient(90deg, #fbb921 0%, #d6990e 99.84%);
+}
+
+#layout-container div[id*="section-screen"] .section .section-data .section-title h1 {
+    color: #ffffff;
+    margin: 0 15px;
+    margin-bottom: 15px;
+    background-image: none;
+    font-size: 35px;
+    font-weight: 300;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+#layout-container div[id*="section-screen"] .section .section-data .section-title {
+    background-color: #dc0046;
+    background-image: none;
+    padding: 20px 10px;
+    position: relative;
+}
+
+#layout-container div[id*="section-screen"] .section .section-data .section-title:before {
+    background-image: none;
+    background-color: #dc0046;
 }
 
     /*------------------------------------------------LISTAS ORDENADAS----------------------------------------------------*/ 
