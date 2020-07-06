@@ -1409,6 +1409,30 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     background-color: #dc0046;
 }
 
+#layout-container div[id*="section-screen"] .section .section-data .desc-wrapper .section-number {
+  display: none;
+}
+
+#layout-container div[id*="section-screen"] .section .section-data .desc-wrapper .section-desc {
+    background-color: transparent;
+    padding: 0 20px;
+}
+
+#layout-container div[id*="section-screen"] .section .section-data .desc-wrapper .section-desc [class*="section-title-"] {
+    font-size: 24px;
+    margin-bottom: 0;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    width: 100%;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
     /*------------------------------------------------LISTAS ORDENADAS----------------------------------------------------*/ 
 
 /*General*/
