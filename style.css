@@ -1000,6 +1000,7 @@ a:hover, a:active, a:focus {
     margin-top: 0px;
     background: #fff;
     box-shadow: none;
+    margin-bottom: 70px;
 }
 
 .content-wrapper:not(.libro):before {
