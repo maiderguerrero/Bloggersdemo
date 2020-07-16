@@ -2820,6 +2820,13 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     color: #c37eb4;
 }
 
+/*Caja 6*/
+.unittag_u4_bloggers .box-6 {
+    border: 2px solid #AB398E;
+    background: #AB398E;
+    color: #fff;
+}
+
 
 /*-------------------unittag_u5_bloggers-------------------*/
 
@@ -2832,6 +2839,13 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 /*Énfasis 1*/
 .unittag_u5_bloggers .enfasis-1 {
     color: #F6A124;
+}
+
+/*Caja 6*/
+.unittag_u5_bloggers .box-6 {
+    border: 2px solid #F6A124;
+    background: #F6A124;
+    color: #fff;
 }
 
 /*-------------------unittag_u6_bloggers-------------------*/
@@ -2867,7 +2881,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     color: #E42083;
 }
 
-/*Caja 7*/
+/*Caja 6*/
 .unittag_u7_bloggers .box-6 {
     border: 2px solid #e42083;
     background: #e42083;
@@ -2887,7 +2901,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     color: #72a1d4;
 }
 
-/*Caja 7*/
+/*Caja 6*/
 .unittag_u8_bloggers .box-6 {
     border: 2px solid #72a1d4;
     background: #72a1d4;
