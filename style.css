@@ -2954,9 +2954,9 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     background: #74be43 !important;
 }
 
-.coursetag_bloggers_verde body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover, 
+.coursetag_bloggers_verde #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover, 
 .coursetag_bloggers_verde body #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover {
-    background: #65a23d !important;
+    background: #4b752e !important;
 }
 
 /*-----------------Segunda pantalla coursetag verde---------------------*/
