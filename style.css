@@ -2920,6 +2920,84 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 }
 
 
+/*-----------------------------------------------------COURSETAG VERDE----------------------------------------------------------------*/
+
+/*-----------------Primera pantalla coursetag verde---------------------*/
+
+.coursetag_bloggers_verde #layout-container #main-screen #course-header {
+    background-color: #74BE43;
+}
+
+.coursetag_bloggers_verde #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title {
+    background: #74be43;
+}
+
+.coursetag_bloggers_verde #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title:before {
+    background-color: #74be43;
+    background-image: none;
+}
+
+/*--------------Menú lateral coursetag verde------------------------*/
+
+.coursetag_bloggers_verde #book-index .col-main {
+    background: #74be43 !important;
+}
+
+
+.coursetag_bloggers_verde #book-index #indice .units ul li a:not(.delete) {
+    background: #74be43;
+}
+
+.coursetag_bloggers_verde body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover, 
+.coursetag_bloggers_verde body #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover {
+    background: #65a23d;
+}
+
+/*-----------------Segunda pantalla coursetag verde---------------------*/
+
+.coursetag_bloggers_verde #layout-container div[id*="section-screen"] .go-back span {
+    color: #74be43;
+    font-size: 1.9rem;
+}
+
+.coursetag_bloggers_verde .go-back button:before, 
+.coursetag_bloggers_verde #layout-container div.go-back button:before {
+    color: #74be43;
+    font-size: 4rem;
+    margin-top: 12px;
+}
+
+.coursetag_bloggers_verde #layout-container div[id*="section-screen"] .section .section-data .section-title {
+    background-color: #74be43;
+}
+
+.coursetag_bloggers_verde #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
+    background-color: #74be43;
+}
+
+.coursetag_bloggers_verde #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:hover, 
+.coursetag_bloggers_verde #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item:hover, 
+.coursetag_bloggers_verde #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item:hover {
+    color: #74be43;
+}
+
+.coursetag_bloggers_verde #layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"] {
+    color: #548633;
+}
+
+
+/*-----------------SCROLL----------------------*/
+
+.coursetag_bloggers_verde #layout-container *::-webkit-scrollbar-track {
+    background-color: #548633;
+}
+
+.coursetag_bloggers_verde #layout-container *::-webkit-scrollbar-thumb {
+    background-color: #548633;
+}
+
+
+
 /*--------------------------------------------------------QUERIES----------------------------------------------------------------------*/
 
 @media screen and (max-width: 1024px) {
