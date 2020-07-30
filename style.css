@@ -1001,6 +1001,11 @@ a:hover, a:active, a:focus {
     border-radius: 20px;
 }
 
+#layout-container *::-webkit-scrollbar-track {
+    background-color: #dc0046;
+    border-radius: 20px;
+}
+
 /*Slide*/
 
 #actividad .carousel-inner .item-container {
@@ -1302,7 +1307,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 }
 
 #layout-container:before {
-  background-color: #ffffff;
+  background-color: #f5f5f5;
 }
 
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item {
@@ -1311,11 +1316,16 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 
 /*-----------------------------------------------SEGUNDA PANTALLA---------------------------------------*/
 
+#layout-container div[id*="section-screen"] .section {
+    margin: 0 25px;
+    padding: 0 20px;
+}
+
 #layout-container div[id*="section-screen"] .section .section-data .section-title h1 {
     color: #ffffff;
     margin: 0 15px;
     margin-bottom: 15px;
-    margin-top: -50px;
+    margin-top: -35px;
     background-image: none;
     font-size: 35px;
     font-weight: 300;
@@ -1361,6 +1371,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 .go-back button:before, #layout-container div.go-back button:before {
   color: #dc0046;
   font-size: 4rem;
+  margin-top: 12px;
 }
 
 #layout-container div[id*="section-screen"] .go-back span {
