@@ -3013,8 +3013,8 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
       color: #74be43;
 }
 
-.coursetag_bloggers_verde body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
-    color: #4b752e;
+.coursetag_bloggers_verde .slider-control:hover {
+    color: #4b752e !important;
 }
 
 /*-------------Elementos de estilo coursetag verde---------------------*/
