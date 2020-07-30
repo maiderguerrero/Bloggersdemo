@@ -2575,7 +2575,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 
 .shortanswer-container input:focus {
   -webkit-box-shadow: 0 0 2px #dc0046;
-    -moz-box-shadow: 0 0 2px #3ac62a;
+    -moz-box-shadow: 0 0 2px #dc0046;
     box-shadow: 0 0 2px #dc0046;
     border-color: #dc0046;
 }
@@ -2643,7 +2643,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 #actividad .markword-active {
     border-radius: 100% !important;
     padding: 5px !important;
-    border: 1px dashed#dc0046 !important;
+    border: 1px dashed #dc0046 !important;
 }
 
 /*Ordenar*/
@@ -2675,7 +2675,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 /*text area - respuestas cortas*/
 .shortanswer-container textarea:focus {
    -webkit-box-shadow: 0 0 2px #dc0046;
-    -moz-box-shadow: 0 0 2px #3ac62a;
+    -moz-box-shadow: 0 0 2px #dc0046;
     box-shadow: 0 0 2px #dc0046;
     border-color: #dc0046;
 }
@@ -3008,6 +3008,15 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     color: #74be43;
 }
 
+.coursetag_bloggers_verde .slider-control, 
+.coursetag_bloggers_verde .slider-control:focus {
+      color: #74be43;
+}
+
+.coursetag_bloggers_verde body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
+    color: #4b752e;
+}
+
 /*-------------Elementos de estilo coursetag verde---------------------*/
 
 /*Tooltip coursetag verde*/
@@ -3113,6 +3122,97 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 .coursetag_bloggers_verde #layout-container div.go-back button:hover {
     color: #5a8c39;
 }
+
+/*---------------------------------------------------Actividades coursetag verde-------------------------------------------*/
+
+/*Inputs coursetag verde*/
+
+.coursetag_bloggers_verde .shortanswer-container input:focus {
+  -webkit-box-shadow: 0 0 2px #74be43;
+    -moz-box-shadow: 0 0 2px #74be43;
+    box-shadow: 0 0 2px #74be43;
+    border-color: #74be43;
+}
+
+/*Grabar audio - grabación coursetag verde*/
+
+.coursetag_bloggers_verde .audiorecorder .btn-primary {
+    color: #74be43;
+    border-bottom: 2px dashed #74be43;
+}
+
+.coursetag_bloggers_verde .audiorecorder .btn-primary:not([disabled]):hover {
+    color: #fff;
+    background-color: #2ba619;
+    opacity: .9;
+    color: #74be43;
+    border-left: 2px dashed #74be43;
+    border-right: 2px dashed #74be43;
+}
+
+.coursetag_bloggers_verde .modal-header h5 {
+    color: #74be43;
+}
+
+
+/*Choose the answer - marcar respuesta coursetag verde*/
+
+.coursetag_bloggers_verde #actividad .workspace.chooseblanks .inline-answer a {
+    border: 1px dashed #74be43;
+}
+
+/*Marcar palabras*/
+.coursetag_bloggers_verde #actividad .markword-active {
+    border: 1px dashed #74be43 !important;
+}
+
+/*Ordenar coursetag verde*/
+
+.coursetag_bloggers_verde #actividad .workspace.ordenar .js-rank-item {
+    border: 1px dashed #74be43;
+}
+
+/*Respuesta múltiple -multiple choice coursetag verde*/
+
+.coursetag_bloggers_verde #actividad .workspace.multiplechoice_horizontal .opcion {
+    border: 1px dashed #74be43;
+}
+
+/*text area - respuestas cortas*/
+.coursetag_bloggers_verde .shortanswer-container textarea:focus {
+   -webkit-box-shadow: 0 0 2px #74be43;
+    -moz-box-shadow: 0 0 2px #74be43;
+    box-shadow: 0 0 2px #74be43;
+    border-color: #74be43;
+}
+
+/*Unir - Relacionar coursetag verde*/
+
+.coursetag_bloggers_verde #actividad .workspace.matching .opcion {
+    border: 1px dashed #74be43;
+}
+
+/*Rellenar espacios - Fill in the blanks coursetag verde*/
+
+.coursetag_bloggers_verde .slide_main input {
+    border-bottom-color: #74be43;
+}
+
+.coursetag_bloggers_verde .fillblanks-draggable-wrapper .response .count {
+    background-color: #74be43;
+}
+
+.coursetag_bloggers_verde .fillblanks-draggable-wrapper .response {
+    border: 1px solid #74be43;
+    border-bottom: 1px solid #74be43;
+}
+
+/*Clasificar coursetag verde*/
+
+.coursetag_bloggers_verde #actividad .workspace.clasificar .clasificar_lista .classify-item {
+    border-bottom: 2px solid #74be43;
+}
+
 
 /*--------------------------------------------------------QUERIES----------------------------------------------------------------------*/
 
