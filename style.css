@@ -1421,9 +1421,15 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 #actividad .content .texto_curso .bck-ol li,
 #actividad .popover-content .bck-ol li,
 #actividad .content .workspace ul li .bck-ol li {
-    counter-increment: bck-li-counter;
     list-style-type: none;
     margin-bottom: 16px;
+}
+
+#actividad .content .cke_contents ol li:before,
+#actividad .content .texto_curso ol li:before,
+#actividad .popover-content ol li:before,
+#actividad .content .workspace ul li ol li:before {
+    counter-increment: bck-li-counter;
 }
 
 /*Lista ordenada 1*/
