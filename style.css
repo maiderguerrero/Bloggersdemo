@@ -3142,10 +3142,8 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 }
 
 .coursetag_bloggers_verde .audiorecorder .btn-primary:not([disabled]):hover {
-    color: #fff;
-    background-color: #2ba619;
-    opacity: .9;
     color: #74be43;
+    background-color: #fff;
     border-left: 2px dashed #74be43;
     border-right: 2px dashed #74be43;
 }
