@@ -1370,10 +1370,14 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     margin-top: 0px;
 }
 
-.go-back button:before, #layout-container div.go-back button:before {
+#layout-container div.go-back button:before {
   color: #dc0046;
   font-size: 4rem;
   margin-top: 12px;
+}
+
+.go-back button:before {
+  margin-top: 0px;
 }
 
 #layout-container div[id*="section-screen"] .go-back span {
@@ -2988,7 +2992,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 }
 
 
-/*-----------------SCROLL----------------------*/
+/*-----------------Scroll coursetag verde----------------------*/
 
 .coursetag_bloggers_verde #layout-container *::-webkit-scrollbar-track {
     background-color: #548633;
@@ -2999,6 +3003,110 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 }
 
 
+/*-------------Elementos de estilo coursetag verde---------------------*/
+
+/*Tooltip coursetag verde*/
+.coursetag_bloggers_verde .bck-tooltip {
+    color: #74be43;
+}
+
+.coursetag_bloggers_verde.popover-title {
+    background-color: #74be43;
+}
+
+/*Pop up coursetag verde*/
+
+.coursetag_bloggers_verde .info-template .info-icon {
+  background: #74be43;
+  color: #74be43;
+}
+
+.coursetag_bloggers_verde .info-template {
+  border: 1px solid #74be43;
+}
+
+.coursetag_bloggers_verde .info-template .info-title {
+  color: #74be43
+}
+
+.coursetag_bloggers_verde #actividad .info-button {
+  background: #74be43;
+}
+
+.coursetag_bloggers_verde .fa-times:before {
+    color: #74be43;
+}
+
+.coursetag_bloggers_verde .popover-template .popover-title {
+  color: #74be43;
+  border-bottom: 2px solid #74be43;
+}
+
+.coursetag_bloggers_verde .popover-template .popover-title:before {
+  color: #74be43;
+}
+
+/*Desplegable coursetag verde*/
+
+.coursetag_bloggers_verde .fa-chevron-down:before {
+    color: #74be43;
+}
+
+.coursetag_bloggers_verde .bck-dropdown-button {
+    color: #fff;
+    padding: 5px;
+    border-bottom: 2px solid #74be43;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+
+.coursetag_bloggers_verde .bck-dropdown-content {
+    border-bottom: 2px solid #74be43;
+}
+
+.coursetag_bloggers_verde .fa-chevron-up:before {
+    color: #74be43;
+}
+
+/*Flipbox coursetag verde*/
+
+.coursetag_bloggers_verde body:not(.edit) .bck-flipbox-face.front {
+    border: #74be43 1px solid;
+}
+
+.coursetag_bloggers_verde body:not(.edit) .bck-flipbox-face.back {
+    border: #74be43 1px solid;
+    background-color: #74be43;
+}
+
+/*Tabs coursetag verde*/
+
+.coursetag_bloggers_verde .bck-tabslists {
+    border-bottom: 2px solid #74be43;
+}
+
+.coursetag_bloggers_verde body:not(.edit) .bck-tabs-box {
+    border: 1px solid #74be43;
+}
+
+.coursetag_bloggers_verde body:not(.edit) .bck-tabs-box.vertical-tabs .bck-tabslists .bck-tabtitles {
+    border-bottom: 1px solid #74be43;
+}
+
+.coursetag_bloggers_verde body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
+    border-left: 2px solid #74be43;
+}
+
+/*Volver slide coursetag verde*/
+
+.coursetag_bloggers_verde .go-back button {
+    color: #74be43;
+}
+
+.coursetag_bloggers_verde .go-back button:hover, 
+.coursetag_bloggers_verde #layout-container div.go-back button:hover {
+    color: #5a8c39;
+}
 
 /*--------------------------------------------------------QUERIES----------------------------------------------------------------------*/
 
