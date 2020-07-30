@@ -2951,12 +2951,12 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 
 
 .coursetag_bloggers_verde #book-index #indice .units ul li a:not(.delete) {
-    background: #74be43;
+    background: #74be43 !important;
 }
 
 .coursetag_bloggers_verde body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover, 
 .coursetag_bloggers_verde body #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover {
-    background: #65a23d;
+    background: #65a23d !important;
 }
 
 /*-----------------Segunda pantalla coursetag verde---------------------*/
@@ -2969,8 +2969,6 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 .coursetag_bloggers_verde .go-back button:before, 
 .coursetag_bloggers_verde #layout-container div.go-back button:before {
     color: #74be43;
-    font-size: 4rem;
-    margin-top: 12px;
 }
 
 .coursetag_bloggers_verde #layout-container div[id*="section-screen"] .section .section-data .section-title {
@@ -3047,6 +3045,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 .coursetag_bloggers_verde .popover-template .popover-title {
   color: #74be43;
   border-bottom: 2px solid #74be43;
+  background: #fff;
 }
 
 .coursetag_bloggers_verde .popover-template .popover-title:before {
