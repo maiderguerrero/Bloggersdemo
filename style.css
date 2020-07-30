@@ -1316,10 +1316,12 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 
 /*-----------------------------------------------SEGUNDA PANTALLA---------------------------------------*/
 
+/*
 #layout-container div[id*="section-screen"] .section {
     margin: 0 25px;
     padding: 0 20px;
 }
+*/
 
 #layout-container div[id*="section-screen"] .section .section-data .section-title h1 {
     color: #ffffff;
