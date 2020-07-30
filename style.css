@@ -3002,6 +3002,13 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     background-color: #548633;
 }
 
+/*--------------Navbar y flechas de navegación coursetag verde---------------*/
+
+.coursetag_bloggers_verde .navbar-bottom .slider-indicators .active, 
+.coursetag_bloggers_verde .slider-indicators .active {
+    background-color: #74be43;
+    color: #74be43;
+}
 
 /*-------------Elementos de estilo coursetag verde---------------------*/
 
@@ -3010,7 +3017,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     color: #74be43;
 }
 
-.coursetag_bloggers_verde.popover-title {
+.coursetag_bloggers_verde .popover-title {
     background-color: #74be43;
 }
 
@@ -3070,13 +3077,13 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 
 /*Flipbox coursetag verde*/
 
-.coursetag_bloggers_verde body:not(.edit) .bck-flipbox-face.front {
-    border: #74be43 1px solid;
+.coursetag_bloggers_verde .bck-flipbox-face.front {
+    border: 1px solid #74be43 !important;
 }
 
-.coursetag_bloggers_verde body:not(.edit) .bck-flipbox-face.back {
-    border: #74be43 1px solid;
-    background-color: #74be43;
+.coursetag_bloggers_verde .bck-flipbox-face.back {
+    border: #74be43 1px solid !important;
+    background-color: #74be43 !important;
 }
 
 /*Tabs coursetag verde*/
@@ -3085,16 +3092,16 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     border-bottom: 2px solid #74be43;
 }
 
-.coursetag_bloggers_verde body:not(.edit) .bck-tabs-box {
-    border: 1px solid #74be43;
+.coursetag_bloggers_verde .bck-tabs-box {
+    border: 1px solid #74be43 !important;
 }
 
-.coursetag_bloggers_verde body:not(.edit) .bck-tabs-box.vertical-tabs .bck-tabslists .bck-tabtitles {
-    border-bottom: 1px solid #74be43;
+.coursetag_bloggers_verde .bck-tabs-box.vertical-tabs .bck-tabslists .bck-tabtitles {
+    border-bottom: 1px solid #74be43 !important;
 }
 
-.coursetag_bloggers_verde body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
-    border-left: 2px solid #74be43;
+.coursetag_bloggers_verde .bck-tabs-box.vertical-tabs .div-contents {
+    border-left: 2px solid #74be43 !important;
 }
 
 /*Volver slide coursetag verde*/
